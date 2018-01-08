@@ -1,5 +1,6 @@
 before_install:
+    - sudo add-apt-repository ppa:jonathonf/texlive
     - sudo apt-get update
-    - sudo apt install -qy texlive-latex-extra latexmk
+    - sudo apt install -qy texlive-full latexmk
 script:
     - make
