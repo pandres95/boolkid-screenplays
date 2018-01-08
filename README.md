@@ -14,3 +14,9 @@ Run `latexmk` over any file to get the resulting pdf for the episode.
 ```bash
 latexmk -pdf path_of_series/name_of_file.tex
 ```
+
+Or, run `make` to generate the pdf output of every single file in the repository.
+
+```bash
+make
+```
