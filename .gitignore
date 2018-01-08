@@ -1,6 +1,7 @@
 # latexmk-generated files
 *.aux
 *.log
+*.bbl
 *.fls
 *.fdb_latexmk
 *.synctex*
