@@ -1,5 +1,7 @@
 # BoolKid Screenplays
 
+[![Travis Build](https://travis-ci.org/pandres95/boolkid-screenplays.svg?branch=master)](https://travis-ci.org/pandres95/boolkid-screenplays)
+
 The current repository includes the source code of the screenplays used to produce [BoolKid](https://youtube.com/pandres95), the YouTube show.
 
 ## Requirements
