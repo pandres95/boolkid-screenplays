@@ -1,8 +1,10 @@
 \documentclass{screenplay}[2018/01/07]
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{../Common/screenplay-custom}
+\usepackage{natbib,hyperref}
 
-\title{Bool Kid — Temporada 1, Episodio 1: El Procrastinador Profesional}
+\title{Bool Kid | Temporada 1, Episodio 1: El Procrastinador Profesional}
 \author{Pablo Andrés Dorado Suárez}
 
 \address{Bogotá, DC \\ 111311 \\
@@ -18,11 +20,7 @@
     ANTAGONISTA es una voz típicamente hecha por BOOL KID, que antagoniza lo que
     un personaje dice, y puede ser escuchada por los personajes en escena.
 
-    \vspace{1em}
-    \begin{center}
-        ESCENA 1
-    \end{center}
-    \vspace{2em}
+    \scenetitle{Escena 1}
 
     \extslug[día]{Un parque}
 
@@ -119,10 +117,33 @@
 
     \extslug[night]{The same park}
 
-    \begin{dialogue}[slows speech]{(cont.d)}
+    \begin{dialogue}[slows speech, shows three-day beard]{(cont.d)}
         \dots procrastinación.
+
+        Lo sé, lo sé, dejé esta parte para más tarde. Tres\dots\ días más tarde.
+        Y aunque pienso que este pequeño chiste sería suficiente, sólo en caso
+        de que no lo hayas entendido, permíteme explicarlo.
+    \end{dialogue}
+
+    \scenetitle{Scene 2}
+
+    \begin{dialogue}[off camera]{(cont.d)}
+        Como lo explican los psicólogos autralianos Gery Beswick —si, Gery con
+        e— y Leon Mann, y más tarde los investigadores suecos Alexander Rozental
+        y Per Carlbring:
+        \begin{quote}
+            La procrastinación es una falla autorregulatoria omnipresente que
+            afecta a aproximadamente un quinto de la población adulta y a la
+            mitad de la población estudiantil. Se define como la demora
+            voluntaria de un curso de acción previsto a pesar de estar peor
+            como resultado de este retraso.
+        \end{quote}\citet{rozental2014}
     \end{dialogue}
     \fadeout
 
     \theend
+
+    \pagebreak
+    \bibliographystyle{plainnat}
+    \bibliography{s1e1references}
 \end{document}
