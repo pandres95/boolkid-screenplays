@@ -8,7 +8,7 @@ OUT = $(foreach file,$(FILES),$(basename $(file)).pdf)
 
 all: $(shell mkdir -p $(DIST)) $(OUT) distribute
 
-clean: $(OUT)
+clean:
 	@rm -rf $(OUT)
 	@rm -rf $(DIST)
 
