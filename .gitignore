@@ -1,0 +1,11 @@
+# latexmk-generated files
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex*
+S*/*.pdf
+
+# OS-generated files
+.DS_Store
+Thumbs.db
