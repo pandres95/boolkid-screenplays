@@ -1,0 +1,14 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{screenplay-custom}[2018/01/07 Screenplay Custom Package]
+
+\RequirePackage{scrextend}
+
+\newcommand{\transition}[1] {
+    \begin{addmargin}{2em}
+        \begin{flushright}
+            \MakeUppercase{#1}:
+        \end{flushright}
+    \end{addmargin}
+}
+
+\endinput

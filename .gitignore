@@ -9,3 +9,6 @@ S*/*.pdf
 # OS-generated files
 .DS_Store
 Thumbs.db
+
+# *.sty files symbolic links
+S*/*.sty
