@@ -1,5 +1,5 @@
 LATEX=latexmk
-FLAGS=-cd -pdf -silent
+FLAGS=-cd -pdf -interaction=nonstopmode -file-line-error
 
 DIRS = $(sort $(dir $(wildcard S*/)))
 FILES = $(foreach dir,$(DIRS),$(sort $(wildcard $(dir)*.tex)))
