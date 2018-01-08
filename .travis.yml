@@ -1,7 +1,6 @@
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -qy texlive-latex-base \
-  - texlive-humanities latexmk
+  - sudo apt-get install -qy texlive-latex-base texlive-humanities latexmk
 
 script:
   - make
