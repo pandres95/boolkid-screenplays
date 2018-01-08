@@ -1,0 +1,5 @@
+before_install:
+    - sudo apt-get update
+    - sudo apt install -qy texlive-latex-extra latexmk
+script:
+    - make
