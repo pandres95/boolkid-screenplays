@@ -15,7 +15,7 @@ clean:
 distribute:
 	$(foreach file,$(OUT),$(shell cp $(file) $(DIST)))
 
-S*/%.pdf: S*/%.tex
+%.pdf: %.tex
 	@echo $< $@
 	@latexmk $(FLAGS) $<
 	@latexmk -c -cd $<
