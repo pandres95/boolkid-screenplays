@@ -5,11 +5,15 @@ before_install:
 script:
   - make
 
+branches:
+  except:
+    - master
+
 deploy:
   provider: releases
   api_key: $TOKEN
   file_glob: true
-  file: */$TRAVIS_TAG*.pdf
+  file: dist/$TRAVIS_TAG--*.pdf
   skip_cleanup: true
   on:
     tags: true
