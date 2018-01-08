@@ -1,6 +1,6 @@
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -qy texlive-latex-extra texlive-humanities latexmk
+  - sudo apt-get install -qy texlive-latex-extra texlive-humanities texlive-fonts-recommended latexmk
 
 script:
   - make
